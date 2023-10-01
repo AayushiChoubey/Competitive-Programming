@@ -62,7 +62,7 @@ int main() {
         ll f=0;
         cin>>a>>b;
         for(ll i = 0 ; i < (ll)a.size() ; i++) {
-            if((a[i] == '0' and b[i] == '0') and (a[i+1] == '1' and b[i+1] == '1')) {
+            if((a[i] == '0' && b[i] == '0') && (a[i+1] == '1' && b[i+1] == '1')) {
                 f = 1;
                 break;
             }
